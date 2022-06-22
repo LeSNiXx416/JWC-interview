@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAMP</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap');
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: #612378;
+        font-family: 'Chakra Petch', sans-serif;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 300;
+    }
+    
+    .navbar {
+        text-align: right;
+        border: 1px solid white;
+        padding: 20px;
+        font-size: 20px;
+    }
+    
+    .navbar > a {
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+    }
+    
+    .welcome {
+        text-align: center;
+        padding: 3rem;
+        color: white;
+    }
+
+    .welcome h1 {
+        font-size: 50px;
+    }
+    
+    .welcome p {
+        padding: 2rem 0;
+        font-size: 30px;
+    
+    }
+    
+    .welcome button {
+        border: 2px solid #ffffff;
+        border-radius: 5px;
+        padding: 5px 8px;
+        font-size: 30px;
+        background-color: #ffffff;
+        color: #612378;
+    
+    }
+    
+    .about {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 5rem;
+        gap: 2rem;
+        color: white;
+    }
+
+    .about h3 {
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+
+    .about p {
+        font-size: 28px;
+    }
+    
+    .about .image {
+        width: 400px;
+        height: 500px;
+        border: 1px solid white;
+    }
+
+    .review {
+        color: #ffffff;
+    }
+
+    .review h3 {
+        font-size: 45px;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .review .user {
+        display: block;
+        width: 100%;
+    }
+    
+    .review .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2rem;
+        margin: 5rem;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .review .image {
+        border: 1px solid #ffffff;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+
+<body>
+    <nav class="navbar">
+        <a href="#">เกี่ยวกับหมอหมึก</a>
+        <a href="#">บทความ</a>
+        <a href="#">จองคิว</a>
+    </nav>
+    <section class="welcome">
+        <h1>หมอหมึก</h1>
+        <p>ผู้มีประสบการณ์พยากรณ์กว่า 10 ปี พร้อมคำพยากรณ์ที่แม่นยำ</p>
+        <button>จองคิว</button>
+    </section>
+    <section class="about">
+        <div class="content">
+            <h3>ประวัติหมอหมึก</h3>
+            <p>หมอหมึกเป็นนักพยากรณ์ที่ชำนาญด้านการทำนายดวงด้วยลูกแก้วพยากรณ์ไพ่ทาโร่และการดูลายลือ
+
+                <br />ด้วยความสามารถที่หลากหลาย<br />
+                ทำให้หมอหมึกสามารถเลือกวิธีทำนายที่เหมาะกับแต่ละบุคคลเพื่อให้ได้ผลลัพธ์แม่นยำที่สุด
+            </p>
+        </div>
+        <img class="image" src="https://cdns-images.dzcdn.net/images/cover/67f13a73643f1680b5cc74b58637c950/500x500.jpg" alt="image">
+    </section>
+    <section class="review">
+        <h3>รีวิวจากลูกค้า</h3>
+        <div class="content">
+            <div class="user">
+                <img class="image" src="https://th.bing.com/th/id/R.ec9a3f7df0de1dfdaccc651ffcd7b4c2?rik=7s0it73GDrIIsw&riu=http%3a%2f%2f25.media.tumblr.com%2ftumblr_mbeiuyJx001qgd0ejo1_500.jpg&ehk=xY4Rs3gUnJoD2HvG%2frKj4BT2QIhai4o%2blWVhMsF%2b1wc%3d&risl=&pid=ImgRaw&r=0" alt="image">
+                <p class="review_name">แมทธิว นักธุรกิจ</p>
+                <p class="review_content">
+                    หมอหมึกช่วยผมเรื่องฤกษ์ยามในการเจรจาธุรกิจได้มากเลยตอนนี้ขายดีเทน้ำเทท่าเลยครับ
+                </p>
+            </div>
+            <div class="user">
+                <img class="image" src="https://www.opptrends.com/wp-content/uploads/2017/06/the-rock-the-wok-850x619.jpg" alt="image">
+                <p class="review_name">แจ็ค นักแสดง</p>
+                <p class="review_content">
+                    ต้องขอขอบคุณหมอหมึกในการช่วยให้ความสัมพันธ์ราบรื่นนะคะทำนายอะไรไว้ก็แม่นทุกอย่างเลยค่ะ
+                </p>
+            </div>
+            <div class="user">
+                <img class="image" src="https://i.kym-cdn.com/entries/icons/facebook/000/022/612/undertake.jpg" alt="image">
+                <p class="review_name">น้ำใส นักศึกษา</p>
+                <p class="review_content">
+                    ที่หมอหมึกบอกมานะคะเกิดเกือบหมดเลยค่ะถ้าไม่ได้หมอหมึกช่วยไว้ชีวิตคงแย่เลยค่ะดีนะที่ป้องกันเรื่องร้ายๆ
+                    ทันเวลา
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="map">
+        <div class="text">
+            <h3>ทำนายชะตากับหมอหมึก</h3>
+            <p>
+                สามารถจองคิวได้ในเว็บหรือ
+                <br />
+                อีเมล: octopus_fortune@teller.com
+                <br />
+                โทรศัพท์: 099 XXXX XXX
+                <br />
+                และมาที่สำนักที่
+                <br />
+                ชั้น 12 อาคาร JWC ถนนโปรแกรมมิ่ง แขวงเว็บเขตอินเตอร์เน็ต กรุงเทพ 99999
+                <br />
+                ตามเวลาที่นัดไว้
+                <br />
+                จำกัด 10 คิวต่อหนึ่งวัน เปิดทำการ
+                <br />
+                10.00 - 18.30 น. พัก 12.00 - 13.00
+                <br /> เปิดทุกวันอังคารถึงเสาร์ หยุดวันจันทร์และอาทิตย์
+            </p>
+        </div>
+        <div class="image"> <img src="https://media.discordapp.net/attachments/509747782693945382/989057284158148608/unknown.png" alt="">
+
+        </div>
+        <source>
+    </section>
+
+
+<script src="script.js"></script>r
+</body>
+
+</html>

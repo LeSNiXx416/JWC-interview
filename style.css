@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #612378;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 300;
+}
+
+.navbar {
+    text-align: right;
+    border: 1px solid white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.navbar>a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.welcome {
+    text-align: center;
+    padding: 3rem;
+    color: white;
+}
+
+.welcome h1 {
+    font-size: 50px;
+}
+
+.welcome p {
+    padding: 2rem 0;
+    font-size: 30px;
+
+}
+
+.welcome button {
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 5px 8px;
+    font-size: 30px;
+    background-color: #ffffff;
+    color: #612378;
+
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem;
+    gap: 2rem;
+    color: white;
+}
+
+.about h3 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.about p {
+    font-size: 28px;
+}
+
+.about .image {
+    width: 400px;
+    height: 500px;
+    border: 1px solid white;
+}
+
+.review {
+    color: #ffffff;
+}
+
+.review h3 {
+    font-size: 45px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.review .user {
+    display: block;
+    width: 100%;
+}
+
+.review .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 5rem;
+    align-items: center;
+    text-align: center;
+}
+
+.review .image {
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.map{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 20rem;
+    align-items: center;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+}
